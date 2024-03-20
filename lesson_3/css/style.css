@@ -1,0 +1,22 @@
+@import url("reset.css");
+h1{
+    color: blueviolet;
+}
+p span{
+    color: red;
+}
+.text + div{
+    color: pink;
+}
+.text ~ p{
+    color: rgb(220, 3, 3);
+}
+.text > p{
+    color: rgb(127, 163, 255);
+}
+#sands{
+    color: rgb(255, 153, 0);
+}
+[class*="foot"]{
+    color: blue;
+}
