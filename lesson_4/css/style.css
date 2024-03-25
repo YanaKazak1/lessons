@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&family=Rubik:ital,wght@0,600;1,600&display=swap');
+
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+img {
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(65, 64, 64);
+    text-align: center;
+}
+
+.title-yoga {
+    font-size: 19px;
+    font-weight: 500;
+    color: #00000081;
+    text-shadow: 1px 1px 1px #00000081;
+
+}
+
+.main_yoga {
+    line-height: 166.666667%;
+    /* 30/18 */
+    letter-spacing: 1.2px;
+    word-spacing: 10px;
+}
+
+.list {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(52, 106, 52);
+    font-style: italic;
+    color: rgb(60, 94, 133);
+    text-shadow: 1px 1px 1px #00000081;
+}
+
+.title-bed {
+    color: #2b2929;
+    font-size: 40px;
+    font-style: normal;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 120%;
+    /* 48/40 */
+    text-align: center;
+}
+
+.text-bed {
+    color: #2b2929;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    line-height: 187.5%;
+    /* 30/16 */
+}
+
+.text {
+    font-size: 20px;
+    line-height: 140%;
+    /* 28/20 */
+}
+
+.footer {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 4px;
+
+}
