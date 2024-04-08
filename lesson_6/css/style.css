@@ -1,0 +1,240 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(65, 64, 64);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bed {
+    max-width: 1329px;
+    padding: 100px 15px;
+    margin: 0 auto;
+
+}
+
+.image_bed {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.title-bed {
+    color: #2b2929;
+    font-size: 40px;
+    font-style: normal;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    line-height: 120%;
+    /* 48/40 */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.text_bed {
+    color: #2b2929;
+
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    line-height: 187.5%;
+    /* 30/16 */
+}
+
+.text_bed p {
+    padding-bottom: 15px;
+}
+
+.subtitle_bed {
+    font-size: 20px;
+    line-height: 140%;
+    /* 28/20 */
+    padding-bottom: 20px;
+}
+
+
+
+li {
+    padding-bottom: 20px;
+}
+
+.list_item {
+    background: url("../images/mark.png") 0 0 / 30px no-repeat;
+    padding-left: 33px;
+    margin-bottom: 15px;
+}
+
+.explore {
+    background: url("../images/explore_bg.jpg");
+    width: 100%;
+
+}
+
+.container_explore {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 20px;
+
+
+}
+
+.content_explore {
+    margin-left: -65px;
+    margin-right: -65px;
+}
+
+.text_explore {
+    max-width: 700px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    padding-left: 65px;
+    padding-right: 65px;
+
+
+}
+
+.text_explore p {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.title_explore {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.button_explore {
+
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #fff url("../images/hat.png") 0 10px / 15px no-repeat;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.image_explore {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+    padding: 0 65px;
+
+
+
+
+}
+
+.img_kid {
+    max-width: 100%;
+}
+
+.collections {
+    background: rgb(0, 0, 0, 0.1) url("../images/collections.png") 0 60% / contain no-repeat;
+
+
+}
+
+.container_collections {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 20px;
+
+}
+
+.content_collections {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.text_collections {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 50px;
+    font-size: 0;
+}
+
+.text_collections p {
+    width: 600px;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 55px;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+
+.title_collections {
+    font-size: 65px;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+.button_collections {
+    color: #fff;
+    font-size: 29px;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background: #010101 url("../images/bag.png") 0px 25px / 15px no-repeat;
+    padding: 20px;
+}
+
+.image_collections {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid rgb(0, 0, 0, 0.25);
+    border-radius: 160px 0;
+    margin-top: 30px;
+    margin-left: 30px;
+
+
+}
+
+.image_collections img {
+    width: 400px;
+    display: inline-block;
+    border-radius: 160px 0;
+    margin: -15px 20px 15px -20px;
+    vertical-align: middle;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    letter-spacing: 2px;
+}
