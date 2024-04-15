@@ -1,0 +1,382 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(65, 64, 64);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* .page {
+    margin-right: 20px;
+    margin-left: 20px;
+} */
+
+.link {
+    border-radius: 8px;
+    border: 2px dotted rgb(85, 58, 93);
+    background-color: rgb(203, 160, 243);
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.link:hover {
+    background-color: rgb(142, 54, 225);
+    color: whitesmoke;
+
+}
+
+.link:active {
+    background-color: rgb(117, 103, 130);
+}
+
+.link:visited {
+    color: blanchedalmond;
+}
+
+
+.block_2 p:first-child {
+    color: blue;
+
+}
+
+.block_2 p:last-child {
+    text-transform: capitalize;
+    color: green;
+}
+
+.block_2 p:nth-child(3):hover {
+    color: blueviolet;
+}
+
+.block_2 p:nth-last-child(2) {
+    text-transform: uppercase;
+}
+
+
+.block_2 p:not(:nth-child(5)) {
+    margin-bottom: 10px;
+}
+
+.game {
+    min-height: 600px;
+    text-align: initial;
+    font-size: 0;
+    margin-top: 50px;
+}
+
+.game-line {
+    background-color: rgb(190, 156, 221);
+}
+
+.game_line-1 {
+    width: 65px;
+    height: 65px;
+}
+
+.game_line-2 {
+    width: 65px;
+    height: 65px;
+}
+
+.game-line-1:hover+.game_line-2,
+.game_line-2:hover {
+    width: 100%;
+    /* height: 55px; */
+}
+
+.game_line-3 {
+    width: 1350px;
+    height: 50px;
+    display: inline-block;
+}
+
+.game_line-3-1 {
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+}
+
+.game_line-2:hover~.game_line-3-1,
+.game_line-3-1:hover {
+    visibility: visible;
+    display: inline-block;
+}
+
+.game_line-3-1:hover {
+    height: 100px;
+}
+
+.game_line-4-1 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.game_line-3-1:hover~.game_line-4 {
+    display: inline-block;
+    width: 1350px;
+    height: 50px;
+}
+
+.game_line-3-1:hover~.game_line-4-1,
+.game_line-4-1:hover {
+    visibility: visible;
+    display: inline-block;
+    background-color: rgb(111, 88, 144);
+}
+
+.game_line-4-1:hover {
+    width: 100%;
+}
+
+.game_line-5 {
+    width: 25px;
+    height: 300px;
+    visibility: hidden;
+}
+
+.game_line-4-1:hover~.game_line-5 {
+    visibility: visible;
+    height: 20px;
+}
+
+.game_line-5:hover {
+    height: 250px;
+    visibility: visible;
+    background-color: rgb(111, 88, 144);
+}
+
+.game_line-6 {
+    width: 25px;
+    height: 20px;
+    visibility: hidden;
+    background-color: black;
+}
+
+.game_line-5:hover~.game_line-6,
+.game_line-6:hover {
+    visibility: visible;
+}
+
+.game_line-6:hover {
+    width: 100%;
+    height: 50px;
+}
+
+.game_text {
+    visibility: hidden;
+    text-align: center;
+    height: 300px;
+}
+
+.game_line-6:hover~.game-text,
+.game_text:hover {
+    visibility: visible;
+    background: url("../images/win.jpeg") 0 0 / contain no-repeat;
+}
+
+.bed {
+    max-width: 1329px;
+    padding: 100px 15px;
+    margin: 0 auto;
+
+}
+
+.image_bed {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.title-bed {
+    color: #2b2929;
+    font-size: 40px;
+    font-style: normal;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    line-height: 120%;
+    /* 48/40 */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.text_bed {
+    color: #2b2929;
+
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    line-height: 187.5%;
+    /* 30/16 */
+}
+
+.text_bed p {
+    margin-bottom: 15px;
+}
+
+.subtitle_bed {
+    font-size: 20px;
+    line-height: 140%;
+    /* 28/20 */
+    margin-bottom: 20px;
+}
+
+
+
+li {
+    margin-bottom: 20px;
+}
+
+.list_item::before {
+    content: "";
+    background: url("../images/mark.png") 0 0 / 100% no-repeat;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+.about {
+    width: 100%;
+    background-color: black;
+}
+
+.about_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about_title {
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    line-height: 116.666667%;
+    /* 70/60 */
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0;
+    /* margin-bottom: 10px; */
+}
+
+.about_title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(246, 0, 0, 1) 0%, rgba(237, 229, 6, 1) 37%, rgba(0, 237, 17, 1) 61%, rgba(0, 7, 255, 1) 100%);
+
+
+}
+
+.about_text {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    line-height: 222.222222%;
+    /* 40/18 */
+    letter-spacing: -1px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.items {
+
+    font-size: 0;
+}
+
+.item {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    line-height: 125%;
+    /* 25/20 */
+    text-transform: capitalize;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+
+}
+
+.item::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: radial-gradient(circle, rgba(246, 0, 0, 1) 14%, rgba(237, 229, 6, 1) 31%, rgba(0, 237, 17, 1) 55%, rgba(0, 7, 255, 1) 80%);
+
+}
+
+.contacts {
+    font-size: 0;
+    margin: 0 auto;
+}
+
+.contacts_item {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    /* 20/20 */
+    letter-spacing: -1px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.tel::before {
+    content: "";
+    background: url(../images/tel.png) 0 0 / 100% no-repeat;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.address::before {
+    content: "";
+    background: url(../images/address.png) 0 0 / 100% no-repeat;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.email::before {
+    content: "";
+    background: url(../images/email.png) 0 0 / 100% no-repeat;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+
+}
