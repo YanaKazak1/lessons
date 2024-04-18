@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(reset.css);
+
+
+body {
+    background-color: rgba(109, 42, 186, 0.552);
+    color: beige;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page {
+    width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border: 3px solid rgb(246, 17, 5);
+    background: linear-gradient(90deg, rgba(150, 8, 132, 1) 29%, rgba(70, 14, 128, 1) 76%, rgba(36, 1, 66, 1) 100%);
+
+
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(64, 6, 103);
+    text-align: center;
+
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+p:first-child {
+    text-align: right;
+    padding-right: 30px;
+}
+
+p:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+img:hover {
+    opacity: 0.5
+}
